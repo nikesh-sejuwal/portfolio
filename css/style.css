@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   margin: 0.75rem;
+}
+a {
+   text-decoration: none;
+}
+body {
+   font-family: "Roboto Condensed", sans-serif;
+}
+/* .current {
+   color: aliceblue;
+   background-color: #5185c0;
+   border-radius: 15px;
+} */
+
+.bg-light {
+   color: #333;
+   background: #f4f4f4;
+}
+.bg-dark {
+   color: #f4f4f4;
+   background: #333;
+}
+.highlight {
+   color: #ffd700;
+}
+.h2-primary {
+   font-family: "Space Grotesk", sans-serif;
+   font-size: 35px;
+   color: #ffffff;
+}
+.h1-primary {
+   font-family: "Space Grotesk", sans-serif;
+   font-size: 45px;
+   color: aliceblue;
+}
+.image-info {
+   background: url(../img/background-finalll-min.jpg) no-repeat center
+      center/cover;
+   height: 100vh;
+}
+
+#navbar {
+   display: flex;
+   justify-content: space-around;
+   z-index: 1;
+}
+
+#logo img {
+   margin: 0.75rem;
+   width: 130.75px;
+   height: 88.25px;
+}
+
+#navbar ul li a {
+   padding: 1rem;
+   color: rgb(184, 185, 186);
+   padding: 0.75rem;
+   margin: 0 0.1rem;
+}
+#navbar ul li a:hover {
+   color: #ffd700;
+}
+#navbar ul {
+   display: flex;
+   padding: 0.75rem;
+   align-items: center;
+   list-style: none;
+   font-family: "Space Grotesk", sans-serif;
+   font-size: 18px;
+}
+
+/* Name */
+.name {
+   margin-left: 300px;
+   margin-top: 200px;
+}
+.name p {
+   color: aliceblue;
+   font-size: 1.7rem;
+   /* padding: 1rem auto; */
+}
+
+/* ABoUt section */
+
+#about-me {
+   display: flex;
+}
+#about-me div {
+   flex: 1;
+}
+#about-me .image1 {
+   background: url(../img/about.jpg) no-repeat center center/cover;
+}
+#about-me .Texts {
+   font-size: 1.2rem;
+   padding: 10px 40px;
+   text-align: justify;
+}
