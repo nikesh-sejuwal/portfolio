@@ -1,7 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 * {
    box-sizing: border-box;
    margin: 0;
@@ -15,44 +12,58 @@ a {
    text-decoration: none;
 }
 body {
-   font-family: "Roboto Condensed", sans-serif;
+   font-family: "Josefin Sans", sans-serif;
 }
 /* .current {
    color: aliceblue;
    background-color: #5185c0;
    border-radius: 15px;
 } */
-
+.p-1 {
+   padding: 1rem 2rem;
+}
+.bg-yellow {
+   color: #f4f4f4;
+   background: #ffd700;
+}
 .bg-light {
-   color: #333;
-   background: #f4f4f4;
+   color: #000000;
+   background: rgb(230, 230, 250);
 }
 .bg-dark {
    color: #f4f4f4;
    background: #333;
 }
+.bx-2 {
+   font-size: 60px;
+}
 .highlight {
    color: #ffd700;
 }
+.h3-primary {
+   font-size: 20px;
+   color: coral;
+}
 .h2-primary {
-   font-family: "Space Grotesk", sans-serif;
    font-size: 35px;
    color: #ffffff;
 }
 .h1-primary {
-   font-family: "Space Grotesk", sans-serif;
    font-size: 45px;
    color: aliceblue;
 }
 .image-info {
-   background: url(../img/background-finalll-min.jpg) no-repeat center
+   border-bottom: 5px solid #ffd700;
+   background: url(../img/background-finalll-min-min.webp) no-repeat center
       center/cover;
    height: 100vh;
 }
 
 #navbar {
    display: flex;
-   justify-content: space-around;
+   position: sticky;
+   top: 0;
+   justify-content: space-evenly;
    z-index: 1;
 }
 
@@ -65,6 +76,7 @@ body {
 #navbar ul li a {
    padding: 1rem;
    color: rgb(184, 185, 186);
+   font-size: 20px;
    padding: 0.75rem;
    margin: 0 0.1rem;
 }
@@ -76,18 +88,17 @@ body {
    padding: 0.75rem;
    align-items: center;
    list-style: none;
-   font-family: "Space Grotesk", sans-serif;
    font-size: 18px;
 }
 
 /* Name */
 .name {
-   margin-left: 300px;
-   margin-top: 200px;
+   position: absolute;
+   margin: 250px;
 }
 .name p {
    color: aliceblue;
-   font-size: 1.7rem;
+   font-size: 1.3rem;
    /* padding: 1rem auto; */
 }
 
@@ -100,10 +111,38 @@ body {
    flex: 1;
 }
 #about-me .image1 {
-   background: url(../img/about.jpg) no-repeat center center/cover;
+   background: url(../img/about-min.webp) no-repeat center center/cover;
 }
 #about-me .Texts {
    font-size: 1.2rem;
    padding: 10px 40px;
    text-align: justify;
+}
+
+/* Contact me */
+#contact {
+   border-top: 5px solid #ffd700;
+}
+#contact h1 {
+   text-align: center;
+   padding-top: 20px;
+   font-size: 40px;
+}
+#contact-me ul {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+}
+#contact-me ul li a {
+   padding: 0.25 0.75rem;
+}
+#contact-me #email {
+   padding-top: 26px;
+   text-align: center;
+}
+
+#footer {
+   padding-top: 100px;
+   border-bottom: 5px solid #ffd700;
+   text-align: center;
 }

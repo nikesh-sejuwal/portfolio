@@ -1,0 +1,17 @@
+/* For tablet */
+.image-info {
+   background: url(../img/background-small-devices-min.webp) no-repeat center
+      center/cover;
+}
+
+.name {
+   padding-top: 550px;
+   padding-left: 30px;
+   margin: 1px;
+}
+
+#about-me .Texts {
+   font-size: 1rem;
+   padding: 10px 20px;
+   text-align: justify;
+}
