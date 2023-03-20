@@ -19,9 +19,10 @@ body {
    background-color: #5185c0;
    border-radius: 15px;
 } */
-.p-1 {
-   padding: 1rem 2rem;
-}
+/* .p-1 {
+   /* padding: 0.2rem;
+   margin: 0.2rem 1rem; */
+} */
 .bg-yellow {
    color: #f4f4f4;
    background: #ffd700;
@@ -34,8 +35,22 @@ body {
    color: #f4f4f4;
    background: #333;
 }
+.p2 {
+   text-align: center;
+   /* border-bottom: 2px dotted aliceblue; */
+   padding: 10px 0 0 20px;
+}
 .bx-2 {
-   font-size: 60px;
+   text-align: center;
+   display: flex;
+   color: #ffd700;
+   margin-left: 40px;
+   font-size: 30px;
+   /* border-bottom: 2px dotted aliceblue; */
+   /* margin-bottom: 5px; */
+}
+.bx-2:hover {
+   color: #bca10d;
 }
 .highlight {
    color: #ffd700;
@@ -53,7 +68,7 @@ body {
    color: aliceblue;
 }
 .image-info {
-   border-bottom: 5px solid #ffd700;
+   /* border-bottom: 5px solid #ffd700; */
    background: url(../img/background-finalll-min-min.webp) no-repeat center
       center/cover;
    height: 100vh;
@@ -61,8 +76,6 @@ body {
 
 #navbar {
    display: flex;
-   position: sticky;
-   top: 0;
    justify-content: space-evenly;
    z-index: 1;
 }
@@ -107,6 +120,9 @@ body {
 #about-me {
    display: flex;
 }
+#about-me h1 {
+   padding-left: 10px;
+}
 #about-me div {
    flex: 1;
 }
@@ -120,29 +136,41 @@ body {
 }
 
 /* Contact me */
-#contact {
-   border-top: 5px solid #ffd700;
+#contact-me {
+   background: url(../img/Pi7_Image_pexels-ready-made-39645741.webp) no-repeat
+      center center/cover;
+   height: 500px;
 }
 #contact h1 {
+   color: aliceblue;
    text-align: center;
-   padding-top: 20px;
-   font-size: 40px;
+   padding: 20px 20px 10px 0px;
+   font-size: 35px;
+}
+#contact {
+   background: #333;
+   border-radius: 25px;
+   margin: auto;
+   max-width: 30%;
+   max-height: 100%;
+}
+#contact-me ul li {
+   display: flex;
 }
 #contact-me ul {
    display: flex;
+   flex-direction: column;
+   text-align: center;
    list-style: none;
    justify-content: center;
 }
+#contact-me li {
+   text-align: center;
+   margin-top: 4px;
+   color: #f4f4f4;
+}
 #contact-me ul li a {
-   padding: 0.25 0.75rem;
-}
-#contact-me #email {
-   padding-top: 26px;
+   display: block;
    text-align: center;
-}
-
-#footer {
-   padding-top: 100px;
-   border-bottom: 5px solid #ffd700;
-   text-align: center;
+   padding: 0;
 }

@@ -3,6 +3,7 @@
    .image-info {
       background: url(../img/mobile-final-min.webp) no-repeat center
          center/cover;
+      max-width: 100%;
    }
    #navbar {
       position: relative;
@@ -11,6 +12,8 @@
    }
    #logo img {
       margin: 0.01rem;
+      width: 110.75px;
+      height: 70.25px;
    }
    #navbar ul li a {
       text-align: center;
@@ -19,16 +22,21 @@
       padding: 1.2rem;
    }
    .name {
-      padding-top: 450px;
-      padding-left: 30px;
+      padding-top: 500px;
+      padding-left: 20px;
       margin: 1px;
+      max-width: 100%;
    }
    .name h1 {
-      font-size: 30px;
+      font-size: 25px;
    }
    .name p {
+      font-size: 0.9rem;
       color: aliceblue;
       background-color: rgba(0, 0, 0, 0.4);
+   }
+   #about-me {
+      max-width: 100%;
    }
    #about-me,
    about-me h1 {
@@ -39,8 +47,18 @@
       display: none;
    }
    #about-me .Texts {
-      font-size: 1rem;
+      font-size: 0.8rem;
       padding: 5px 10px;
+   }
+   #contact {
+      background: #333;
+      border-radius: 25px;
+      margin: auto;
+      max-width: 80%;
+      max-height: 100%;
+   }
+   #contact h1 {
+      font-size: 25px;
    }
 }
 
@@ -48,6 +66,12 @@
    .image-info {
       background: url(../img/background-small-devices-min.webp) no-repeat center
          center/cover;
+      max-width: 100%;
+   }
+   #logo img {
+      margin: 0.01rem;
+      width: 110.75px;
+      height: 70.25px;
    }
    .name {
       padding-top: 280px;
@@ -55,8 +79,12 @@
       margin: 1px;
    }
    .name h1 {
-      font-size: 35px;
+      font-size: 30px;
    }
+   .name p {
+      font-size: 0.9rem;
+   }
+
    #about-me,
    about-me h1 {
       padding-left: 5px;
@@ -66,8 +94,18 @@
       display: none;
    }
    #about-me .Texts {
-      font-size: 1rem;
+      font-size: 0.9rem;
       padding: 5px 10px;
+   }
+   #contact {
+      background: #333;
+      border-radius: 25px;
+      margin: auto;
+      max-width: 60%;
+      max-height: 100%;
+   }
+   #contact h1 {
+      font-size: 30px;
    }
 }
 
@@ -83,6 +121,8 @@
    }
    #logo img {
       margin: 0.01rem;
+      width: 110.75px;
+      height: 70.25px;
    }
    #navbar ul li a {
       text-align: center;
@@ -96,9 +136,10 @@
       margin: 1px;
    }
    .name h1 {
-      font-size: 30px;
+      font-size: 25px;
    }
    .name p {
+      font-size: 0.9rem;
       color: aliceblue;
       background-color: rgba(0, 0, 0, 0.4);
    }
@@ -111,7 +152,17 @@
       display: none;
    }
    #about-me .Texts {
-      font-size: 1rem;
+      font-size: 0.8rem;
       padding: 5px 10px;
+   }
+   #contact {
+      background: #333;
+      border-radius: 25px;
+      margin: auto;
+      max-width: 80%;
+      max-height: 100%;
+   }
+   #contact h1 {
+      font-size: 25px;
    }
 }
